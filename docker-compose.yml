@@ -7,7 +7,7 @@ services:
     volumes:
       - ./:/app
       - node_modules:/app/node_modules
-    container_name: node-dev-env
+    container_name: backend
 
 volumes:
   node_modules:
